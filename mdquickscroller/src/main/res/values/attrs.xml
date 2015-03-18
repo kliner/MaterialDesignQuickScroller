@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="md_quick_scroller">
+        <attr name="scrollerStyle">
+            <enum name="popup" value="0"/>
+            <enum name="holo" value="1"/>
+            <enum name="material" value="2"/>
+        </attr>
+        <attr name="scrollerBarVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="scrollerLineVisible">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="4"/>
+            <enum name="gone" value="8"/>
+        </attr>
+        <attr name="totalWidth" format="dimension"/>
+        <attr name="scrollBarWidth" format="dimension"/>
+        <attr name="scrollBarHeight" format="dimension"/>
+        <attr name="scrollBarColor" format="color"/>
+        <attr name="scrollBarFocusColor" format="color"/>
+        <attr name="scrollBarFocusTransColor" format="color"/>
+        <attr name="scrollLineWidth" format="dimension"/>
+        <attr name="scrollLineColor" format="color"/>
+        <attr name="materialPinWidth" format="dimension"/>
+        <attr name="materialPinColor" format="color"/>
+        <attr name="materialPinTextSize" format="dimension"/>
+        <attr name="materialPinTextColor" format="color"/>
+    </declare-styleable>
+</resources>
