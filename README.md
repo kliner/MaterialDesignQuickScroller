@@ -1,6 +1,6 @@
 # About MaterialDesignQuickScroller
 
-<html><img src="http://github.com/kliner/MaterialDesignQuickScroller/raw/master/screenshot/demo.gif"/></html>
+<html><img src="https://github.com/kliner/MaterialDesignQuickScroller/raw/master/screenshot/demo.gif"/></html>
 
 Refactored from QuickScroll: [https://github.com/andraskindler/quickscroll](https://github.com/andraskindler/quickscroll)
 
