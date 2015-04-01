@@ -1,5 +1,4 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/com.kliner.mdquickscroller"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,5 +20,30 @@
         android:layout_height="match_parent"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        app:scrollerStyle="material" />
+    />
+
+    <!-- customization like below:
+    <com.kliner.mdquickscroller.widget.MaterialDesignQuickScroller
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/scroller"
+        android:layout_width="30dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        app:scrollerStyle="material"
+        app:scrollerBarVisible="visible"
+        app:scrollerLineVisible="invisible"
+        app:scrollBarWidth="4dp"
+        app:scrollBarHeight="16dp"
+        app:scrollBarColor="#111"
+        app:scrollBarFocusColor="#111"
+        app:scrollBarFocusTransColor="#8111"
+        app:scrollLineWidth="1dp"
+        app:scrollLineColor="#bbb"
+        app:materialPinWidth="60dp"
+        app:materialPinColor="#0f0"
+        app:materialPinTextSize="18sp"
+        app:materialPinTextColor="#fff"
+        />
+    -->
 </RelativeLayout>
